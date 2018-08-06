@@ -1,0 +1,50 @@
+<!-- # Problem: 1 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Example Page </title>
+    </head>
+    <body>
+    
+        <button = onclick="demo1()" style="height: 50px; width: 100px"> Click Me </button>
+        <button = onclick="demo2()" style="height: 50px; width: 100px"> Click Me </button>
+        <div id= "one"> </div>
+    
+    <script>
+        function demo1() {
+            document.getElementById("one").innerHTML = "I'm Right";
+        }
+        function demo2(){
+            document.getElementById("one").innerHTML = "No..I'm Right";
+        }
+    </script>
+    </body>
+</html> 
+
+
+<!-- # Problem: 2
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Example Page </title>
+        <style>
+            #container{
+                height: 100px;
+                width: 500px;
+                font-size: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id = "one">
+            <input type = "container" id= "container" value= "Don't hover over me.." onmouseover="demo()" >
+        </div>
+    <script>
+        function demo() {
+            onmouseover=alert("Hey,i told you not to hover over me!")
+        }
+    </script>
+    </body>
+</html> -->
